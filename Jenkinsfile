@@ -16,9 +16,9 @@ pipeline {
         }
       }
 
-         stage("Deploy npm cloud application") { 
+         stage("Deploy npm cloud application in Master") { 
          steps { 
-           sh 'echo "deploying application..."'
+           sh 'echo "deploying application in Master Branch..."'
          }
 
      }
