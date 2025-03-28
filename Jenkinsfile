@@ -16,7 +16,7 @@ pipeline {
         }
       }
 
-         stage("Deploy npm cloud application in Prod") { 
+         stage("Deploy npm cloud application in Prod 2nd pipeline") { 
          steps { 
            sh 'echo "deploying application..."'
          }
